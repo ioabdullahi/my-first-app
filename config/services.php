@@ -35,4 +35,11 @@ return [
         ],
     ],
 
+    'qoreid' => [
+    'client_id' => env('QOREID_CLIENT_ID'),
+    'client_secret' => env('QOREID_CLIENT_SECRET'),
+    'token_url' => 'https://api.qoreid.com/token',
+    'address_verify_url' => 'https://api.qoreid.com/v1/addresses',
+],
+
 ];
